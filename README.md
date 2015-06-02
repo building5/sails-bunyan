@@ -1,6 +1,8 @@
 # sails-bunyan
 
-A module replacing the Sails default logger with Bunyan. Support sails 0.10.x.
+A module replacing the Sails default logger with Bunyan. Supports Sails 0.10.x.
+
+> For Sails 0.11.x, see [sails-hook-bunyan][].
 
 To use, simply inject the logger in `config/bootstrap.js`.
 
@@ -68,4 +70,5 @@ module.exports.http = {
 };
 ```
 
+ [sails-hook-bunyan]: https://github.com/building5/sails-bunyan
  [logrotate]: http://linux.die.net/man/8/logrotate

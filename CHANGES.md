@@ -1,5 +1,9 @@
 # sails-bunyan changelog
 
+## v1.0.3 (2015-06-02)
+
+ * Updated README to point to sails-hook-bunyan.
+
 ## v1.0.2 (2015-03-04)
 
  * PR#3 export logLevels, so sails-bunyan extensions can make their
