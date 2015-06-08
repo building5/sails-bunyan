@@ -1,5 +1,11 @@
 # sails-bunyan changelog
 
+## v1.0.4 (2015-06-08)
+
+ * Change request logger to build simple loggers, so that streams are shared
+   between the parent and children. This solves some crashing problems when
+   `.reopenFileStreams()` is called.
+
 ## v1.0.3 (2015-06-02)
 
  * Updated README to point to sails-hook-bunyan.

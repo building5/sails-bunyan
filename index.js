@@ -121,6 +121,6 @@ module.exports.injectRequestLogger = function (req, res, next) {
   }
 
   // build a child logger for this request
-  req.log = global.sails.log.logger.child({ req: req });
+  req.log = global.sails.log.logger.child({ req: req }, true);
   next();
 };
