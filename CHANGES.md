@@ -1,5 +1,10 @@
 # sails-bunyan changelog
 
+## v1.0.5 (2015-06-12)
+
+ * Manually serialize requests when building the child logger, since bunyan
+   doesn't do that for us.
+
 ## v1.0.4 (2015-06-08)
 
  * Change request logger to build simple loggers, so that streams are shared

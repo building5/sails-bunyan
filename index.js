@@ -110,6 +110,8 @@ module.exports.injectBunyan = function (sails) {
 };
 
 module.exports.injectRequestLogger = function (req, res, next) {
+  var reqSerializer;
+
   if (!global.sails) {
     console.error('Sails has not been lifted yet');
     return next();
@@ -118,6 +120,11 @@ module.exports.injectRequestLogger = function (req, res, next) {
   if (!global.sails.log.logger) {
     console.error('Bunyan has not been injected into sails yet');
     return next();
+  }
+
+  reqSerializer = global.sails.log.logger.serializers.req;
+  if (reqSerializer) {
+    req = reqSerializer(req);
   }
 
   // build a child logger for this request
