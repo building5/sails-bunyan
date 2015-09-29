@@ -1,5 +1,9 @@
 # sails-bunyan changelog
 
+## v1.0.6 (2015-09-29)
+
+ * #4 Fix request logger injection.
+
 ## v1.0.5 (2015-06-12)
 
  * Manually serialize requests when building the child logger, since bunyan
@@ -17,7 +21,7 @@
 
 ## v1.0.2 (2015-03-04)
 
- * PR#3 export logLevels, so sails-bunyan extensions can make their
+ * #3 export logLevels, so sails-bunyan extensions can make their
    own mappings
 
 ## v1.0.1 (2015-01-06)
