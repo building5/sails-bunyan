@@ -28,6 +28,6 @@
     "mocha": "^1.21.4"
   },
   "peerDependencies": {
-    "sails": "^0.10.4"
+    "sails": "^0.9.13 || ^0.10.4"
   }
 }

@@ -1,5 +1,9 @@
 # sails-bunyan changelog
 
+## v1.0.7 (2016-09-14)
+
+ * Add support for Sails 0.9. Don't ask why. I simply had to do it.
+
 ## v1.0.6 (2015-09-29)
 
  * PR#4 Fix request logger injection.

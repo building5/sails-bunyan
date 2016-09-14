@@ -1,6 +1,7 @@
 # sails-bunyan
 
-A module replacing the Sails default logger with Bunyan. Supports Sails 0.10.x.
+A module replacing the Sails default logger with Bunyan. Supports Sails 0.9.x
+and 0.10.x.
 
 > For Sails 0.11.x, see [sails-hook-bunyan][].
 
